@@ -1,7 +1,5 @@
 """
-This authentication implementation is intentionally kept simple to help you understand the basic concepts.
-In real-world applications, developers typically use more robust authentication methods such as JWT tokens,
-database-stored API keys, OAuth2, or session-based authentication systems.
+Starter file
 """
 from fastapi import FastAPI, HTTPException, Security, Depends
 from fastapi.security import APIKeyHeader
